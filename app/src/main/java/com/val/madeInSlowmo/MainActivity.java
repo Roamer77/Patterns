@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 if(position==1)
                 Log.e("MyTag","position= "+position);
-                
+                Log.e("MyTag","position= "+position);
+
             }
 
             @Override
